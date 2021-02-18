@@ -1,0 +1,16 @@
+{
+   "ques" : [
+    "Find the angle (in degrees) between the vectors A =3.7y+3.4z and B =3.4x+3.7z.",
+    "Find the Laplacian of T(x,y,z)=(x^2)y+(y^2)x+xyz at point P(3,3,3).",
+    "Find the volume integral where T=8xyz, over the volume of a cube with sides of length 2 units."
+    ],
+
+    "options" : [
+    ["0.49", "54.24", "24.6", "60.09"],
+    ["1","50","12","4"],
+    ["23","63","50","64"]
+    ],
+
+    "ans" : [ 4,3,4,2,1 ]
+
+}

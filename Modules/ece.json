@@ -1,0 +1,16 @@
+{
+   "ques" : [
+    "If a voltage (At2 + Bt3/2 + C) V is applied across a 4.8 uF capacitor, then evaluate the current (in uA) \n flowing through the capacitor at t = 1.1 seconds. Given A=1.5, B=3.2, C=5.6 \n",
+    "Connecting a lead from the negative terminal to the positive terminal of a battery will produce _________",
+    "A 111.2 V source has a series internal resistance of 6.0 Ω. The maximum power (in Watt) that can be delivered to a load is"
+    ],
+
+    "options" : [
+    ["-1.73", "66.88", "40", "-1.28"],
+    ["A short circuit","An open circuit","A high resistance circuit","none of the given options"],
+    ["515.23","4121.81","2060.91","1030.45"]
+    ],
+
+    "ans" : [ 3,1,3 ]
+
+}
