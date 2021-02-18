@@ -1,5 +1,5 @@
 import binascii
-def call(username,pasw,mail):
+def call(username,pasw):
     f = open("Modules/userid.txt",'r')
     for i in f:
         a = i.split()
@@ -9,7 +9,6 @@ def call(username,pasw,mail):
             f.close()
             return -1
         v1 = f.readline()
-        v2 = f.readline()
     
     f.close()
     f = open("Modules/userid.txt","ab")
@@ -17,11 +16,8 @@ def call(username,pasw,mail):
     username = binascii.b2a_uu(username)
     pasw = bytes(pasw, 'utf-8')
     pasw = binascii.b2a_uu(pasw)
-    mail = bytes(mail, 'utf-8')
-    mail = binascii.b2a_uu(mail)
     f.write(username)
     f.write(pasw)
-    f.write(mail)
     f.close()
     return 0
 
@@ -36,7 +32,6 @@ def check(username,pasw):
             flag = 1
             break
         v = f.readline()
-        v2 = f.readline()
     
     if flag == 0:
         f.close()

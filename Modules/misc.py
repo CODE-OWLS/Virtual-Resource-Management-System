@@ -43,7 +43,7 @@ def notesmain(root):
     #blank
     blank = []
     j = 1
-    for i in range(6):
+    for i in range(4):
         blank.append(Label(LeftFrame, text=" Trying to make it long ",fg="#24292e",bg="#24292e"))
         blank[i].grid(row = j, column=1)
         j += 2
