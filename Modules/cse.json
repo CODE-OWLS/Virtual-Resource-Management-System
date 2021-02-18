@@ -1,0 +1,30 @@
+{
+   "ques" : [
+    "When an algorithm is written in the form of a programming language, it becomes a ___",
+    "Which of the following is a conditional statement?",
+    "Predict the output ->       a=128;print( a>>1 )",
+    "An error in a program that prevents it from running as expected.",
+    "Predict the output ->       a,b = 5,9; print(a&b)",
+    "Software that translates and executes a high level language program one line at a time.",
+    "Predict the output ->       a = (1,2,3); print(type(a))",
+    "Which of the following is a loop statement?",
+    "Predict the output ->       for a in range(2,-5,-1): print(a, end = ',')",
+    "Which of the expression can be used to multiply a given number 'a' by 4?"
+    ],
+
+    "options" : [
+    ["Program", "Flowchart","Syntax","Pseudo code"],
+    ["FOR","WHILE","IF","TRY"],
+    ["67","60","63","64"],
+    ["Bug","Mistake","Algorithm","Error report"],
+    ["1","2","3","4"],
+    ["Executor","Interpreter","Assembler","Compiler"],
+    ["list","tuple","set","dictionary"],
+    ["DO","IF","WHILE","ELSE"],
+    ["2,1,0,-1,-2,-3,-4","2,1,0,-1,-2,-3,-4,-5","2,1,0","2"],
+    ["a>>2","a<<2","a<<4","a>>4"]
+    ],
+
+    "ans" : [ 1,3,4,1,1,2,2,3,1,2 ]
+
+}

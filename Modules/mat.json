@@ -1,0 +1,16 @@
+{
+   "ques" : [
+    "Which of the following functions are NOT continuous in whole real line?",
+    "Choose INCORRECT options from below:",
+    "lim (n/2^n)"
+    ],
+
+    "options" : [
+    ["Exponential", "3x^3+8x+11", "3x^7+5x-11", "1/x"],
+    ["Every bounded sequence has a convergent subsequence.","Every sequence has a monotone subsequence.","All subsequences of a bounded sequence are convergent.","All subsequences of a bounded sequence are bounded."],
+    ["1/2","1","0","doesn't exist."]
+    ],
+
+    "ans" : [ 4,3,3 ]
+
+}
