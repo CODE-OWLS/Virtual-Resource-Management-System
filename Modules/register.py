@@ -5,7 +5,7 @@ def call(username,pasw):
         a = i.split()
         yes = binascii.a2b_uu(a[0])
         hmm = yes.decode("utf-8")
-        if a[0] == username:
+        if hmm == username:
             f.close()
             return -1
         v1 = f.readline()
