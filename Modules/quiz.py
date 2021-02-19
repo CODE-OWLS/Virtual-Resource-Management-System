@@ -104,7 +104,7 @@ def cse():
     root.geometry("1000x500")
     root.title("Quiz")
     global obj,q,options,a
-    yes = random.randint(0,7)
+    yes = random.randint(0,9)
     with open(r'Modules\cse.json') as f:
         obj = json.load(f)
     q = (obj['ques'][yes:yes+3])

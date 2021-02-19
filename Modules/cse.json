@@ -9,7 +9,9 @@
     "Predict the output ->       a = (1,2,3); print(type(a))",
     "Which of the following is a loop statement?",
     "Predict the output ->       for a in range(2,-5,-1): print(a, end = ',')",
-    "Which of the expression can be used to multiply a given number 'a' by 4?"
+    "Which of the expression can be used to multiply a given number 'a' by 4?",
+    "Which of the following is the correct mode for both writing and reading a file in binary format?",
+    "Which of the following is the correct statement for deleting a file?"
     ],
 
     "options" : [
@@ -22,9 +24,11 @@
     ["list","tuple","set","dictionary"],
     ["DO","IF","WHILE","ELSE"],
     ["2,1,0,-1,-2,-3,-4","2,1,0,-1,-2,-3,-4,-5","2,1,0","2"],
-    ["a>>2","a<<2","a<<4","a>>4"]
+    ["a>>2","a<<2","a<<4","a>>4"],
+    ["wb+","w","wb","rb+"],
+    ["file.delete()","os.delete('file')","del('file')","os.remove('file')"]
     ],
 
-    "ans" : [ 1,3,4,1,1,2,2,3,1,2 ]
+    "ans" : [ 1,3,4,1,1,2,2,3,1,2,1,4 ]
 
 }
