@@ -13,7 +13,7 @@ def call():
     roo2 = Tk()
     roo2.title("Learning Management System By Code Owls")
     roo2.configure(bg="#24292e")
-    roo2.geometry("900x500")
+    roo2.geometry("850x450")
 
     #Functions
     def home():
