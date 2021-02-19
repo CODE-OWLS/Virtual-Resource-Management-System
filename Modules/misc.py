@@ -6,7 +6,7 @@ import random
 import Modules.calculator as calc
 import Modules.weather as wea
 import Modules.ttt as tt
-import Modules.colour as col
+import Modules.snake_color as col
 import Modules.snake as sna
 
 def calcu(root):

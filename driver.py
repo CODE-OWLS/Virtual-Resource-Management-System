@@ -14,6 +14,7 @@ def call():
     roo2.title("Learning Management System By Code Owls")
     roo2.configure(bg="#24292e")
     roo2.geometry("850x450")
+    roo2.iconbitmap("images\mainlogo.ico")
 
     #Functions
     def home():
@@ -63,7 +64,7 @@ def call():
     homebutton = Button(Top,text="HOME",padx=10,pady=10,fg="white",bg="#1d2125",borderwidth=1,command=home)
     booksnotes = Button(Top,text="Books",padx=10,pady=10,fg="white",bg="#1d2125",borderwidth=1, command=books)
     videosnotes = Button(Top,text="Videos",padx=10,pady=10,fg="white",bg="#1d2125",borderwidth=1,command=videos)
-    miscnotes = Button(Top,text="Miscellaneous",padx=10,pady=10,fg="white",bg="#1d2125",borderwidth=1,command=misc)
+    miscnotes = Button(Top,text="More...",padx=10,pady=10,fg="white",bg="#1d2125",borderwidth=1,command=misc)
     notesnotes = Button(Top,text="Notes",padx=10,pady=10,fg="white",bg="#1d2125",borderwidth=1,command= note)
     quiznotes = Button(Top,text="Practice Quiz",padx=10,pady=10,fg="white",bg="#1d2125",borderwidth=1,command= quiz)
     Academic = Button(Top,text="Academic",padx=10,pady=10,fg="white",bg="#1d2125",borderwidth=1,command= academic)
